@@ -1,7 +1,10 @@
 <html>
 <body>
 
-<?php echo $_POST["age"] ?>
+<?php 
+$age = $_POST["age"];
+echo $_POST["age"];
+echo $age; ?>
 
 </body>
 </html>
