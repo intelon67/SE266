@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>SE 266 - Jake Desmarais</title>
     </head>
-    <body style="margin:auto; max-width:600px; background-color:gray;">
+    <body style="margin:auto; max-width:600px;">
     
 		<h1>SE 266 - Jake Desmarais</h1>
        
@@ -44,6 +44,8 @@
         <li><a href="">Week 9</a></li>
         <li><a href="">Week 10</a></li>
         </ul>
+
+        <p>Website Modified: 5/9/2020 at 3:51PM EST</p>
 
             
     
