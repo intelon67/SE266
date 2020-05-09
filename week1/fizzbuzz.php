@@ -19,6 +19,9 @@
                 if($i % 2 == 0){
                     echo "fizz";
                 }
+                elseif($i % 3 == 0){
+                    echo "buzz";
+                }
                 else{
                     echo $num;
                 }
