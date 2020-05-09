@@ -15,7 +15,7 @@
 
         <?php foreach($animals as $value){ ?>
 
-        <li>Menu Item <?php echo $value; ?></li>
+        <li><?php echo $value; ?></li>
 
         <?php }?>
 
