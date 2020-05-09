@@ -19,7 +19,12 @@
 
         <li><strong> Assigned To: </strong> <? echo $task['assigned_to'];?> </li>
 
-        <li><strong> Completed: </strong> <? echo $task['completed'] ? 'Complete' : 'Incomplete';?> </li>
+        <li><strong> Completed: </strong> <?php if ($task['completed']) :  ?> 
+        <span class='icon'>&#9989;</span>
+        <?php endif; ?>
+        
+        
+        </li>
 
         </ul>
         <p>Website Modified: 5/9/2020 at 5:13PM EST</p>
