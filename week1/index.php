@@ -13,21 +13,21 @@
 
         <h2>PHP Resources</h2>
         <?php
-            echo "https://www.w3schools.com/php/";
-            echo "https://www.tutorialspoint.com/php/index.htm";
-            echo "https://www.php.net/manual/en/tutorial.php";
+            echo "<link>https://www.w3schools.com/php/</link>";
+            echo "<link>https://www.tutorialspoint.com/php/index.htm</link>";
+            echo "<link>https://www.php.net/manual/en/tutorial.php</link>";
         ?>
 
         <h2>Git Resources</h2>
         <?php
-            echo "https://guides.github.com/introduction/git-handbook/";
-            echo "https://github.github.com/training-kit/";
-            echo "https://lab.github.com/";
+            echo "<link>https://guides.github.com/introduction/git-handbook/</link>";
+            echo "<link>https://github.github.com/training-kit/</link>";
+            echo "<link>https://lab.github.com/</link>";
         ?>
        
        <h2>Things I Enjoy</h2>
        <?php
-            echo "https://www.twi-global.com/technical-knowledge/faqs/what-is-welding";
+            echo "<link>https://www.twi-global.com/technical-knowledge/faqs/what-is-welding</link>";
             echo "";
         ?>
     </body>
