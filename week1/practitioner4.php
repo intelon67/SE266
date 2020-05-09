@@ -6,7 +6,7 @@
     </head>
     <body style="margin:auto; max-width:600px;">
     
-		<h1>SE 266 - Jake Desmarais</h1>
+    <h1><a href= "index.php">SE 266 - Jake Desmarais</a></h1>
        
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
        <br>
