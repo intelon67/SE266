@@ -11,10 +11,22 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
        <br>
 
-       <form action="age.php" method="post">
-        Age: <input type="text" name="age"><br>
-        <input type="submit">
-        </form>
+        <?php 
+        for (i=0; i<100; i++)
+        {
+            if (i % 2 = 0){
+                echo "fizz"
+            }
+            elseif (i % 3 = 0){
+                echo "buzz"
+            }
+
+            elseif (i % 2 = 0 & i % 3 = 0){
+                echo "fizz buzz"
+            }
+        }
+        
+        ?>
 
         <p>Website Modified: 5/9/2020 at 6:26PM EST</p>
 
