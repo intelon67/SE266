@@ -13,13 +13,13 @@
         <ul>
         <?php $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake", "completed" => "Yes");?> 
 
-        <li><strong> Title: </strong> <? $task['title'];?> </li>
+        <li><strong> Title: </strong> <? echo $task['title'];?> </li>
 
-        <li><strong> Due By: </strong> <? $task['due'];?> </li>
+        <li><strong> Due By: </strong> <? echo $task['due'];?> </li>
 
-        <li><strong> Assigned To: </strong> <? $task['assigned_to'];?> </li>
+        <li><strong> Assigned To: </strong> <? echo $task['assigned_to'];?> </li>
 
-        <li><strong> Completed: </strong> <? $task['completed'] ? 'Complete' : 'Incomplete';?> </li>
+        <li><strong> Completed: </strong> <? echo $task['completed'] ? 'Complete' : 'Incomplete';?> </li>
 
         </ul>
         <p>Website Modified: 5/9/2020 at 5:13PM EST</p>
