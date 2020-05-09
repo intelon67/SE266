@@ -11,9 +11,14 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <ul>
-        <?php for($i=1;$i<=5;$i++){ ?>
-        <li>Menu Item <?php echo $i; ?></li>
+        <?php $animals=['dog','horse','dolphin','zebra','monkey'];?>
+
+        <?php foreach($animals as $value){ ?>
+
+        <li>Menu Item <?php echo $value; ?></li>
+
         <?php }?>
+
         </ul>
         <p>Website Modified: 5/9/2020 at PM EST</p>
 
