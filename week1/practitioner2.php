@@ -16,7 +16,7 @@
             $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake");
 
             foreach ($task as $key=>$value){
-	            echo "Key: ".$key."    Value:".$value;
+	            echo "<b>Key:</b> ".$key."    <b>Value:</b>".$value;
 	            echo "<br>";
                         }       
         ?> 
