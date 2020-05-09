@@ -13,13 +13,10 @@
         <ul>
         <?php
 
-            $task = array("title"=>"Ride Bike","due"=>"Sunday 4PM EST","assigned_to"=>"Jake");
+            $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake");
 
-            echo "0th element of array is " . $task["0"];
-            echo "<br>";
-            //looping
             foreach ($task as $key=>$value){
-	            echo "Key=".$key." value=".$value;
+	            echo "Key: ".$key."    Value:".$value;
 	            echo "<br>";
                         }       
         ?> 
