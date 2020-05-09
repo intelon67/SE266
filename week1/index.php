@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>SE 266 - Jake Desmarais</title>
     </head>
-    <body style="margin:auto;">
+    <body style="margin:auto; max-width:600px;">
     
 		<h1>SE 266 - Jake Desmarais</h1>
        
@@ -30,7 +30,7 @@
             <li><a href="https://www.youtube.com/watch?v=xFhqemndQUM">Motorcycles</a></li>
             <li><a href="https://youtu.be/KHgD0wJGcR0">Cars</a></li>
             </ul>
-            
+
         <h2>Assignments</h2>
         <ul>
         <li><a href="">Week 1</a></li>
