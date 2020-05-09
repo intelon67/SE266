@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>SE 266 - Jake Desmarais</title>
     </head>
-    <body style="margin:auto; max-width:600px;">
+    <body style="margin:auto; max-width:600px; background-color:gray;">
     
 		<h1>SE 266 - Jake Desmarais</h1>
        
