@@ -13,10 +13,9 @@
 
         <?php 
 
-        for ($i=0; $i<100; $i++)
-        {
-            echo $i
-        }
+        $range = range(0,100,1);
+
+        print_r($range);
         
         ?>
 
