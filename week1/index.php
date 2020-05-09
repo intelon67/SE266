@@ -1,10 +1,15 @@
+<!DOCTYPE html>
 <html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '
- <h1>Test Site</h1>
- <p>Hello World</p>'; ?> 
- </body>
+    <head>
+        <meta charset="UTF-8">
+        <title>SE 266 - Hello World</title>
+    </head>
+    <body>
+		<h1>SE 266 - Hello World</h1>
+       
+       <?php
+            echo "Welcome to PHP. PHP rocks!";
+        ?>
+       
+    </body>
 </html>
