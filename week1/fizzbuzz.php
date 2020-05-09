@@ -15,7 +15,13 @@
             $num = 0;
 
             for($i=0;$i<=100;$i++){
-                echo $num;
+                
+                if($i % 2 == 0){
+                    echo "fizz";
+                }
+                else{
+                    echo $num;
+                }
                 echo "<br>";
                 $num += 1;
             }
