@@ -13,21 +13,9 @@
 
         <?php 
 
-        function fizzbuzz($i){
-            if (($i % 2) == 0){
-                echo "Fizz";
-            }
-            elseif (($i % 3) == 0){
-                echo "Buzz";
-            }
-            elseif (($i % 2) == 0) & (($i % 3) == 0){
-                echo "Fizz Buzz";
-            }
-        }
-
         for ($i=0; $i<100; $i++)
         {
-            fizzbuzz($i);
+            echo $i
         }
         
         ?>
