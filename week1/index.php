@@ -28,6 +28,21 @@
        <h2>Things I Enjoy</h2>
     
             <link>https://www.twi-global.com/technical-knowledge/faqs/what-is-welding</link>
+
+        <h2>Assignments</h2>
+        <ul>
+        <li><a href="">Week 1</a></li>
+        <li><a href="">Week 2</a></li>
+        <li><a href="">Week 3</a></li>
+        <li><a href="">Week 4</a></li>
+        <li><a href="">Week 5</a></li>
+        <li><a href="">Week 6</a></li>
+        <li><a href="">Week 7</a></li>
+        <li><a href="">Week 8</a></li>
+        <li><a href="">Week 9</a></li>
+        <li><a href="">Week 10</a></li>
+        </ul>
+
             
         
     </body>
