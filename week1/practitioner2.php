@@ -11,16 +11,18 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <ul>
-        <?php $task = array( 
-            "title" => "Ride Bike",
-            "due" => "4PM Sunday Afternoon",
-            "assigned_to" => "Jake",
-            "completed" => "Yes"
-        );?>
+        <?php
 
-        <?php foreach ($task as $key=>$value){
-	        echo "Key=".$key." value=".$value;
-	        echo "<br>";?>
+            $colors = array("0"=>"Red","1"=>"Green","2"=>"Blue");
+
+            echo "0th element of array is " . $colors["0"];
+            echo "<br>";
+            //looping
+            foreach ($colors as $key=>$value){
+	            echo "Key=".$key." value=".$value;
+	            echo "<br>";
+                        }       
+        ?> 
 
         </ul>
         <p>Website Modified: 5/9/2020 at PM EST</p>
