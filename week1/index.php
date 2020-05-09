@@ -11,25 +11,26 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>PHP Resources</h2>
-       
-            <a href="https://www.w3schools.com/PHP/DEfaULT.asP">W3 Schools</a>
-            <a href="https://www.tutorialspoint.com/php/index.htm">Tutorials Point</a>
-            <a href="https://www.php.net/manual/en/tutorial.php">Php.net</a>
-        
+            <ul>
+            <li><a href="https://www.w3schools.com/PHP/DEfaULT.asP">W3 Schools</a></li>
+            <li><a href="https://www.tutorialspoint.com/php/index.htm">Tutorials Point</a></li>
+            <li><a href="https://www.php.net/manual/en/tutorial.php">Php.net</a></li>
+            </ul>
 
         <h2>Git Resources</h2>
-        
-            <a href="https://guides.github.com/introduction/git-handbook/">Git Handbook</a>
-            <a href="https://github.github.com/training-kit/">Git Training Kit</a>
-            <a href="https://lab.github.com/">Github Lab</a>
-        
+            <ul>
+            <li><a href="https://guides.github.com/introduction/git-handbook/">Git Handbook</a></li>
+            <li><a href="https://github.github.com/training-kit/">Git Training Kit</a></li>
+            <li><a href="https://lab.github.com/">Github Lab</a></li>
+            </ul>
        
        <h2>Things I Enjoy</h2>
-    
-            <a href="https://www.twi-global.com/technical-knowledge/faqs/what-is-welding">Welding</a>
-            <a href="https://www.youtube.com/watch?v=xFhqemndQUM">Motorcycles</a>
-            <a href="https://youtu.be/KHgD0wJGcR0">Cars</a>
-
+            <ul>
+            <li><a href="https://www.twi-global.com/technical-knowledge/faqs/what-is-welding">Welding</a></li>
+            <li><a href="https://www.youtube.com/watch?v=xFhqemndQUM">Motorcycles</a></li>
+            <li><a href="https://youtu.be/KHgD0wJGcR0">Cars</a></li>
+            </ul>
+            
         <h2>Assignments</h2>
         <ul>
         <li><a href="">Week 1</a></li>
