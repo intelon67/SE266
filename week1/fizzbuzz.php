@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>SE 266 - PHP Practioner 4</title>
+        <title>SE 266 - Fizz Buzz</title>
     </head>
     <body style="margin:auto; max-width:600px;">
     
@@ -23,7 +23,7 @@
                     echo "buzz";
                 }
                 else{
-                    echo $num;
+                    echo "fizz buzz";
                 }
                 echo "<br>";
                 $num += 1;
