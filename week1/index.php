@@ -4,28 +4,31 @@
         <meta charset="UTF-8">
         <title>SE 266 - Jake Desmarais</title>
     </head>
-    <body>
+    <body style="margin:auto;">
+    
 		<h1>SE 266 - Jake Desmarais</h1>
        
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>PHP Resources</h2>
        
-            <a>
-           <p><link>https://www.tutorialspoint.com/php/index.htm</link><p>
-            <p><link>https://www.php.net/manual/en/tutorial.php</link><p>
+            <a href="https://www.w3schools.com/PHP/DEfaULT.asP">W3 Schools</a>
+            <a href="https://www.tutorialspoint.com/php/index.htm">Tutorials Point</a>
+            <a href="https://www.php.net/manual/en/tutorial.php">Php.net</a>
         
 
         <h2>Git Resources</h2>
         
-            <link>https://guides.github.com/introduction/git-handbook/</link>
-            <link>https://github.github.com/training-kit/</link>
-            <link>https://lab.github.com/</link>
+            <a href="https://guides.github.com/introduction/git-handbook/">Git Handbook</a>
+            <a href="https://github.github.com/training-kit/">Git Training Kit</a>
+            <a href="https://lab.github.com/">Github Lab</a>
         
        
        <h2>Things I Enjoy</h2>
     
-            <link>https://www.twi-global.com/technical-knowledge/faqs/what-is-welding</link>
+            <a href="https://www.twi-global.com/technical-knowledge/faqs/what-is-welding">Welding</a>
+            <a href="https://www.youtube.com/watch?v=xFhqemndQUM">Motorcycles</a>
+            <a href="https://youtu.be/KHgD0wJGcR0">Cars</a>
 
         <h2>Assignments</h2>
         <ul>
@@ -42,6 +45,6 @@
         </ul>
 
             
-        
+    
     </body>
 </html>
