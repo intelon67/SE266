@@ -1,13 +1,7 @@
 <html>
 <body>
 
-<?php if($_POST["age"] < 21) {
-    echo "You are not old enough."
-}
-else
-{
-    echo "You are old enough."
-} ?>
+<?php echo $_POST["age"] ?>
 
 </body>
 </html>
