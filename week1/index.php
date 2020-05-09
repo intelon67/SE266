@@ -29,5 +29,6 @@
        <?php
             echo "https://www.twi-global.com/technical-knowledge/faqs/what-is-welding";
             echo "";
+        ?>
     </body>
 </html>
