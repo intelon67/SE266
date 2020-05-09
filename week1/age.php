@@ -2,8 +2,10 @@
 <body>
 
 <?php 
-$age = $_POST["age"];
+$age = intval($_POST["age"]);
 echo $_POST["age"];
+
+
 if ($age < 21) {
     echo "You are not old enough.";
 }
