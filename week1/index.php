@@ -7,13 +7,11 @@
     <body>
 		<h1>SE 266 - Jake Desmarais</h1>
        
-       <?php
-            echo "Git hub repo: https://github.com/intelon67/SE266";
-        ?>
+       <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>PHP Resources</h2>
        
-            <p><link>https://www.w3schools.com/php/</link><p>
+            <a>
            <p><link>https://www.tutorialspoint.com/php/index.htm</link><p>
             <p><link>https://www.php.net/manual/en/tutorial.php</link><p>
         
