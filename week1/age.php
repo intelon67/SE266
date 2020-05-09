@@ -14,6 +14,8 @@ function ageVerf($age){
     }
 }
 
+ageVerf($age);
+
 ?>
 
 </body>
