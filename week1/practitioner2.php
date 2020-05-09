@@ -13,16 +13,16 @@
         <ul>
         <?php
 
-            $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake");
+            $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake", "completed" => "Yes");
 
             foreach ($task as $key=>$value){
-	            echo "<b>Key:</b> ".$key."    <b>Value:</b>".$value;
+	            echo "<b>Key:  </b> ".$key."                <b>Value:  </b>".$value;
 	            echo "<br>";
                         }       
         ?> 
 
         </ul>
-        <p>Website Modified: 5/9/2020 at PM EST</p>
+        <p>Website Modified: 5/9/2020 at 5:13PM EST</p>
 
             
     
