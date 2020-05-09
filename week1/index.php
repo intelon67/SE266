@@ -13,9 +13,9 @@
 
         <h2>PHP Resources</h2>
        
-            <link>https://www.w3schools.com/php/</link>
-           <link>https://www.tutorialspoint.com/php/index.htm</link>
-            <link>https://www.php.net/manual/en/tutorial.php</link>
+            <p>https://www.w3schools.com/php/<p>
+           <p>https://www.tutorialspoint.com/php/index.htm<p>
+            <p>https://www.php.net/manual/en/tutorial.php<p>
         
 
         <h2>Git Resources</h2>
