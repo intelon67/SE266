@@ -13,6 +13,8 @@ function ageVerf($age){
     }
 }
 
+echo "<b>Your age:</b> " $age;
+
 ageVerf($age);
 
 ?>
