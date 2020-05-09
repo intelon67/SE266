@@ -12,12 +12,14 @@
        <br>
 
         <?php 
+            $num = 0;
 
-        $range = range(0,100,1);
-
-        print_r($range);
-
-        echo $range;
+            for(i=0;i<=100;i++){
+                if($num % 2 == 0){
+                    echo "Fizz";
+                }
+                $num += 1
+            }
         
         ?>
 
