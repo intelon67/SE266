@@ -13,16 +13,11 @@
 
         <h2>Week 1 Assignments</h2>
         <ul>
-        <li><a href="practioner.php">PHP Practioner 1</a></li>
-        <li><a href="">Week 2</a></li>
-        <li><a href="">Week 3</a></li>
-        <li><a href="">Week 4</a></li>
-        <li><a href="">Week 5</a></li>
-        <li><a href="">Week 6</a></li>
-        <li><a href="">Week 7</a></li>
-        <li><a href="">Week 8</a></li>
-        <li><a href="">Week 9</a></li>
-        <li><a href="">Week 10</a></li>
+        <li><a href="practioner1.php">PHP Practitioner 1</a></li>
+        <li><a href="practitioner2.php">PHP Practitioner 2</a></li>
+        <li><a href="">PHP Practitioner 3</a></li>
+        <li><a href="">PHP Practitioner 4</a></li>
+        <li><a href="">Fizz Buzz</a></li>
         </ul>
 
         <p>Website Modified: 5/9/2020 at 3:51PM EST</p>
