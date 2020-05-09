@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>SE 266 - PHP Practioner 2</title>
+        <title>SE 266 - PHP Practioner 3</title>
     </head>
     <body style="margin:auto; max-width:600px;">
     
