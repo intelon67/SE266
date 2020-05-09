@@ -13,7 +13,7 @@
         <ul>
         <?php 
         $task = [ 
-            'title' => 1972;
+            'title' => '1972';
             'due' => 'Honda';
             'assigned_to' => 'CL350';
             'completed' => 'Sure';
@@ -26,7 +26,7 @@
         <?php }?>
 
         </ul>
-        <p>Website Modified: 5/9/2020 at PM EST</p>
+        <p>Website Modified: 5/9/2020 at 4:48PM EST</p>
 
             
     
