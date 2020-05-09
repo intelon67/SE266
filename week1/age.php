@@ -5,12 +5,8 @@
 $age = intval($_POST["age"]);
 echo $_POST["age"];
 
+function ageVerf($age){
 
-if ($age < 21) {
-    echo "You are not old enough.";
-}
-else{
-    echo "You are old enough."
 }
 
 ?>
