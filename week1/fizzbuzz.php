@@ -16,7 +16,7 @@
 
             for($i=0;$i<=100;$i++){
                 echo $num;
-                echo "<br>"
+                echo "<br>";
                 $num += 1;
             }
         
