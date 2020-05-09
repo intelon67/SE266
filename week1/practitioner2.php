@@ -11,12 +11,12 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <ul>
-        <?php $task = [ 
+        <?php $task = array( 
             'title' => 'Ride Bike',
             'due' => '4PM Sunday Afternoon',
             'assigned_to' => 'Jake',
             'completed' => 'Yes'
-            ];?>
+        );?>
 
         <?php foreach ($task as $key=>$value){
 	        echo "Key=".$key." value=".$value;
