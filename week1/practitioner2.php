@@ -18,6 +18,10 @@
             'completed' => 'Yes'
             ];?>
 
+        <?php foreach ($task as $key=>$value){
+	        echo "Key=".$key." value=".$value;
+	        echo "<br>";?>
+
         </ul>
         <p>Website Modified: 5/9/2020 at PM EST</p>
 
