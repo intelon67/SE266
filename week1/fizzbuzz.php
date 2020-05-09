@@ -16,6 +16,8 @@
         $range = range(0,100,1);
 
         print_r($range);
+
+        echo $range;
         
         ?>
 
