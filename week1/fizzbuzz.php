@@ -14,13 +14,13 @@
         <?php 
 
         function fizzbuzz($i){
-            if ($i % 2 = 0){
+            if (($i % 2) == 0){
                 echo "Fizz";
             }
-            elseif ($i % 3 = 0){
+            elseif (($i % 3) == 0){
                 echo "Buzz";
             }
-            elseif ($i % 2 = 0 & $i % 3 = 0){
+            elseif (($i % 2) == 0) & (($i % 3) == 0){
                 echo "Fizz Buzz";
             }
         }
