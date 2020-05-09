@@ -12,10 +12,10 @@
 
         <ul>
         <?php $task = array( 
-            'title' => 'Ride Bike',
-            'due' => '4PM Sunday Afternoon',
-            'assigned_to' => 'Jake',
-            'completed' => 'Yes'
+            "title" => "Ride Bike",
+            "due" => "4PM Sunday Afternoon",
+            "assigned_to" => "Jake",
+            "completed" => "Yes"
         );?>
 
         <?php foreach ($task as $key=>$value){
