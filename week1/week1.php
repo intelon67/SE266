@@ -15,9 +15,9 @@
         <ul>
         <li><a href="practioner1.php">PHP Practitioner 1</a></li>
         <li><a href="practitioner2.php">PHP Practitioner 2</a></li>
-        <li><a href="">PHP Practitioner 3</a></li>
-        <li><a href="">PHP Practitioner 4</a></li>
-        <li><a href="">Fizz Buzz</a></li>
+        <li><a href="practitioner3.php">PHP Practitioner 3</a></li>
+        <li><a href="practitioner4.php">PHP Practitioner 4</a></li>
+        <li><a href="fizzbuzz.php">Fizz Buzz</a></li>
         </ul>
 
         <p>Website Modified: 5/9/2020 at 3:51PM EST</p>

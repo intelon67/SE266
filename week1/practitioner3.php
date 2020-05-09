@@ -11,15 +11,15 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <ul>
-        <?php
+        <?php $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake", "completed" => "Yes");?> 
 
-            $task = array("title"=>"Ride Bike", "due"=>"Sunday 4PM EST", "assigned_to"=>"Jake", "completed" => "Yes");
+        <li><strong> Title: </strong> <? $task['title'];?> </li>
 
-            foreach ($task as $key=>$value){
-	            echo "<b>Key:  </b> ".$key."                <b>Value:  </b>".$value;
-	            echo "<br>";
-                        }       
-        ?> 
+        <li><strong> Due By: </strong> <? $task['due'];?> </li>
+
+        <li><strong> Assigned To: </strong> <? $task['assigned_to'];?> </li>
+
+        <li><strong> Completed: </strong> <? $task['completed'] ? 'Complete' : 'Incomplete';?> </li>
 
         </ul>
         <p>Website Modified: 5/9/2020 at 5:13PM EST</p>
