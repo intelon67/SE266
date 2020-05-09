@@ -33,7 +33,7 @@
 
         <h2>Assignments</h2>
         <ul>
-        <li><a href="">Week 1</a></li>
+        <li><a href="week1.php">Week 1</a></li>
         <li><a href="">Week 2</a></li>
         <li><a href="">Week 3</a></li>
         <li><a href="">Week 4</a></li>
