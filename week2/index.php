@@ -37,11 +37,11 @@
 
         <h2>Week 2 Assignments</h2>
         <ul>
-        <li><a href="practioner1.php">PHP Practitioner 1</a></li>
-        <li><a href="practitioner2.php">PHP Practitioner 2</a></li>
-        <li><a href="practitioner3.php">PHP Practitioner 3</a></li>
-        <li><a href="practitioner4.php">PHP Practitioner 4</a></li>
-        <li><a href="fizzbuzz.php">Fizz Buzz</a></li>
+        <li><a href=""></a>1</li>
+        <li><a href=""></a>2</li>
+        <li><a href=""></a>3</li>
+        <li><a href=""></a>4</li>
+        <li><a href=""></a>5</li>
         </ul>
 
 
