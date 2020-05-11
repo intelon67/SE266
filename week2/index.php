@@ -27,7 +27,7 @@
 </style>
     <body>
     <div class='header'>
-        <h1><a href= "index.php">SE 266 - Jake Desmarais</a></h1>
+        <h1><a href= "../week1/index.php">SE 266 - Jake Desmarais</a></h1>
     </div>
     <div class='main'>
 
