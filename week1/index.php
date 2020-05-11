@@ -39,7 +39,7 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>PHP Resources</h2>
-        <img src="klaww.png" alt='klaww gang logo' style='vertical-align:right;'>
+        <img src="klaww.png" alt='klaww gang logo' style='vertical-align:right;'width='42' height='200'>
         
             <ul>
             <li><a href="https://www.w3schools.com/PHP/DEfaULT.asP">W3 Schools</a></li>
