@@ -50,7 +50,7 @@
     </div>
 
     <footer>
-    <p>Website Modified: 5/9/2020 at 3:51PM EST</p>
+    <p style='color:white; text-align:center;'>Website Modified: 5/10/2020 at 9:19PM EST</p>
     </footer>
     </body>
 </html>
