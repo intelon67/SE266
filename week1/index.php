@@ -4,7 +4,18 @@
         <meta charset="UTF-8">
         <title>SE 266 - Jake Desmarais</title>
     </head>
-    <body style="margin:auto; max-width:600px;">
+<style>
+    body {background-image:url('bg.jpg')}
+    .main {background-color:gray;
+            border-style:solid;
+            margin:auto;
+            width:600px;
+            height:1000px;}
+</style>
+
+    <body>
+
+    <div class='main'>
     
     <h1><a href= "index.php">SE 266 - Jake Desmarais</a></h1>
        
@@ -48,6 +59,6 @@
         <p>Website Modified: 5/9/2020 at 3:51PM EST</p>
 
             
-    
+    </div>
     </body>
 </html>
