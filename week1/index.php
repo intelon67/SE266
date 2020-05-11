@@ -6,7 +6,12 @@
     </head>
 <style>
     body {background-image:url('bg.jpg')}
-    footer {border-top-style:solid 1px;}
+    footer {border-top-style:solid 1px;
+            margin:auto;
+            width:600px;
+            height:20px;
+            background-color:black;}
+            
     .main {background-color:gray;
             border-style:solid 2px;
             margin:auto;
@@ -61,7 +66,7 @@
             
     </div>
     <footer>
-        <p>Website Modified: 5/10/2020 at 8:58PM EST</p>
+        <p color='white'>Website Modified: 5/10/2020 at 8:58PM EST</p>
     </footer> 
     </body>
 </html>
