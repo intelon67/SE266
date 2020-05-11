@@ -9,8 +9,8 @@
 
     .header {margin:auto;
             width:600px;
-            height:200px;
-            background-image:url('header.jpg');}
+            height:40px;
+            background-color:black;}
 
 
     footer {border-top-style:solid 1px;
