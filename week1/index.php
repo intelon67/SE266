@@ -6,8 +6,9 @@
     </head>
 <style>
     body {background-image:url('bg.jpg')}
+    footer {border-top-style:solid 1px;}
     .main {background-color:gray;
-            border-style:solid;
+            border-style:solid 2px;
             margin:auto;
             width:600px;
             height:1000px;}
@@ -56,8 +57,9 @@
         <li><a href="">Week 10</a></li>
         </ul>
 
+        <footer>
         <p>Website Modified: 5/9/2020 at 3:51PM EST</p>
-
+        </footer>
             
     </div>
     </body>
