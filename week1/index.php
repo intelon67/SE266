@@ -57,10 +57,11 @@
         <li><a href="">Week 10</a></li>
         </ul>
 
-        <footer>
-        <p>Website Modified: 5/9/2020 at 3:51PM EST</p>
-        </footer>
+
             
     </div>
+    <footer>
+        <p>Website Modified: 5/10/2020 at 8:58PM EST</p>
+    </footer> 
     </body>
 </html>
