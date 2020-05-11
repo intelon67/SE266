@@ -6,6 +6,13 @@
     </head>
 <style>
     body {background-image:url('bg.jpg')}
+
+    .header {margin:auto;
+            width:600px;
+            height:200px;
+            background-image:url('header.jpg');}
+
+
     footer {border-top-style:solid 1px;
             margin:auto;
             width:600px;
@@ -21,9 +28,13 @@
 
     <body>
 
+    <div class='header'>
+    <h1><a href= "index.php">SE 266 - Jake Desmarais</a></h1>    
+    </div>
+
     <div class='main'>
     
-    <h1><a href= "index.php">SE 266 - Jake Desmarais</a></h1>
+
        
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
