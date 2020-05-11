@@ -77,7 +77,7 @@
             
     </div>
     <footer>
-        <p color='white'>Website Modified: 5/10/2020 at 8:58PM EST</p>
+        <p style='color:white; text-align:center;'>Website Modified: 5/10/2020 at 8:58PM EST</p>
     </footer> 
     </body>
 </html>
