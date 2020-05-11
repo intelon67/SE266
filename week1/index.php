@@ -39,6 +39,8 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>PHP Resources</h2>
+        <img src='klaww.png'></img>
+        
             <ul>
             <li><a href="https://www.w3schools.com/PHP/DEfaULT.asP">W3 Schools</a></li>
             <li><a href="https://www.tutorialspoint.com/php/index.htm">Tutorials Point</a></li>
@@ -63,7 +65,7 @@
         <ul>
         <li><a href="week1.php">Week 1</a></li>
         <li><a href="../week2/index.php">Week 2</a></li>
-        <li><a href="">Week 3</a></li>
+        <li><a href=" ">Week 3</a></li>
         <li><a href="">Week 4</a></li>
         <li><a href="">Week 5</a></li>
         <li><a href="">Week 6</a></li>
