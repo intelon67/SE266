@@ -29,7 +29,7 @@
 <?php 
 
 
-$fName = strval($_POST['fName']);
+$fName = isEmpty(strval($_POST['fName']));
 $lName = strval($_POST['lName']);
 $married = strval($_POST['married']);
 $birthdate = isDate(strval($_POST['birthDate']));
@@ -53,6 +53,16 @@ $age = age($birthdate);
 
     return $interval->y;
 
+}
+
+function isEmpty($var){
+    if(empty($var)){
+        $error = "Error, empty string!";
+        return $error;
+    }
+    else{
+        return $var;
+    }
 }
 
 function isDate($dt) {
