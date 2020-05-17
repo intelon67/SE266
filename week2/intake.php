@@ -25,67 +25,27 @@
             width:600px;
             height:1000px;}
 </style>
-
 <?php 
-  function age ($bdate) {
 
-    $date = new DateTime($bdate);
+    $fName = strval($_POST['fName']);
+    $lName = strval($_POST['lName']);
+    $married = strval($_POST['married']);
+    $birthdate = strval($_POST['birthDate']);
+    $weight = intval($_POST['weight']);
+    $ft = intval($_POST['ft']);
+    $in = intval($_POST['in']);
 
-    $now = new DateTime();
+    function submit($fName,$lName,$married,$birthdate,$weight,$ft,$in){
+        if(empty($fName) && empty($lName) && empty($married) && empty($birthdate) && empty($weight) && empty($ft) && empty($in)){
+            header("Location: /submit.php");
+        }
+        else{
+            
+        }
 
-    $interval = $now->diff($date);
-
-
-
-    return $interval->y;
-
-}
-
-function isDate($dt) {
-
-    try {
-
-        $d = new DateTime($dt);
-
-        return (true);
-
-    } catch(Exception $e) {
-
-        return false;
-
+    if(array_key_exists('subBtn', $_POST)){
+        submit($fName,$lName,$married,$birthdate,$weight,$ft,$in);
     }
-
-}
-
-function bmi ($ft, $inch, $weight) {
-
-    $kg = $weight/2.20462;
-    $ftInches = $ft/12;
-    $meters = $ftInches + $inch * 0.0254;
-
-    $BMI = $kg / ($meters * $meters);
-
-    return $BMI;
-  }
-
-  function bmiDescription ($BMI) {
-
-    if ($BMI >= 30){
-        $BmiDesc = 'Obese';
-    }
-    else if($BMI >= 25){
-        $BmiDesc = 'Overweight';
-    }
-    else if ($BMI >= 18.5){
-        $BmiDesc = 'Normal Weight';
-    }
-    else if ($BMI < 18.5){
-        $BmiDesc = 'Underweight';
-    }
-    
-    return $bmiDescription;
-}
-
 ?>
     <body>
     <div class='header'>
@@ -97,7 +57,7 @@ function bmi ($ft, $inch, $weight) {
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>Patient Intake</h2>
-        <form action = 'submit.php' method='POST'>
+        <form action = 'intake.php' method='POST'>
         First Name: <input type="text" name="fName">
         <br>
         Last Name: <input type="text" name="lName">

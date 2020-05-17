@@ -27,6 +27,66 @@
 </style>
 
 <?php 
+ function age ($bdate) {
+
+    $date = new DateTime($bdate);
+
+    $now = new DateTime();
+
+    $interval = $now->diff($date);
+
+
+
+    return $interval->y;
+
+}
+
+function isDate($dt) {
+
+    try {
+
+        $d = new DateTime($dt);
+
+        return (true);
+
+    } catch(Exception $e) {
+
+        return false;
+
+    }
+
+}
+
+function bmi ($ft, $inch, $weight) {
+
+    $kg = $weight/2.20462;
+    $ftInches = $ft/12;
+    $meters = $ftInches + $inch * 0.0254;
+
+    $BMI = $kg / ($meters * $meters);
+
+    return $BMI;
+  }
+
+  function bmiDescription ($BMI) {
+
+    if ($BMI >= 30){
+        $BmiDesc = 'Obese';
+    }
+    else if($BMI >= 25){
+        $BmiDesc = 'Overweight';
+    }
+    else if ($BMI >= 18.5){
+        $BmiDesc = 'Normal Weight';
+    }
+    else if ($BMI < 18.5){
+        $BmiDesc = 'Underweight';
+    }
+    
+    return $bmiDescription;
+}
+
+
 
         $fName = strval($_POST['fName']);
         $lName = strval($_POST['lName']);
@@ -35,17 +95,8 @@
         $weight = intval($_POST['weight']);
         $ft = intval($_POST['ft']);
         $in = intval($_POST['in']);
+        $bmi = bmi($ft,$inch,$weight);
 
-    function submit($fName,$lName,$married,$birthdate,$weight,$ft,$in){
-        if(empty($fName) && empty($lName) && empty($married) && empty($birthdate) && empty($weight) && empty($ft) && empty($in)){
-            echo "Strings are empty!";
-        }
-        else{
-            
-        }
-    }
-
-    submit($fName,$lName,$married,$birthdate,$weight,$ft,$in);
 
 ?>
     <body>
@@ -60,6 +111,11 @@
         <h2>Patient Intake</h2>
 
         First Name: <?php echo $fName;?>
+        Last Name: <?php echo $lName;?>
+
+
+        BMI: <?php echo $bmi;?>
+
         
 
 
