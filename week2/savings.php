@@ -25,6 +25,8 @@
             width:600px;
             height:1000px;}
 </style>
+
+<?php $savings = "";?>
     <body>
     <div class='header'>
         <h1><a href= "../week1/index.php">SE 266 - Jake Desmarais</a></h1>
@@ -46,7 +48,7 @@
         </form>
 
 
-
+        <p><?php echo $savings; ?></p>
 
 
 
