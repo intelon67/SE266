@@ -68,6 +68,18 @@ function bmi ($ft, $inch, $weight) {
     return $BMI;
   }
 
+
+  function isEmpty($var){
+
+    $var = trim($var);
+
+      if(isset($var) == true && $var == ''){
+          return true;
+      }
+      else{
+          return false;
+      }
+  }
   function bmiDescription ($BMI) {
 
     if ($BMI >= 30){
@@ -88,6 +100,15 @@ function bmi ($ft, $inch, $weight) {
     if (isset($_POST['subBtn'])){
         echo "Form Submitted <hr />";
         isDate($_POST['birthDate']);
+        age($_POST['birthDate']);
+        
+        if(isEmpty($_POST['fName']) == true){
+            echo "There was a problem";
+        };
+        else {
+            echo 'No Problem';
+        }
+        
     }
     else{
         echo "Initial load";
