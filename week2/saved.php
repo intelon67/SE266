@@ -38,6 +38,7 @@
             $currentAmount += $monthlyInvestment;
             $monthlyIncrease = ($currentAmount + $monthlyInvestment) * $monthlyInterest;
             $saved = $currentAmount+$monthlyIncrease;
+            echo $saved;
         }
         return $saved;
        
