@@ -36,7 +36,7 @@
         $monthlyInterest = $interestRate/12/100;
         for($i=1;$i<$numMonths;$i++){
             $currentAmount += $monthlyInvestment;
-            $monthlyIncrease = ($currentAmount + $monthlyInvestment) * 1 + $monthlyInterest;
+            $monthlyIncrease = $currentAmount * (1 + $monthlyInterest);
             $saved = $currentAmount+$monthlyIncrease;
             echo "<br> $saved";
         }
