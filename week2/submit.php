@@ -38,7 +38,7 @@ $ft = isEmpty(intval($_POST['ft']));
 $in = isEmpty(intval($_POST['in']));
 $bmi = isEmpty(bmi($ft,$inch,$weight));
 $bmiDesc = isEmpty(bmiDescription($bmi));
-$age = isEmpty(age($birthdate));
+$age = age($birthdate);
 
 
  function age ($bdate) {
