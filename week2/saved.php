@@ -31,7 +31,7 @@
     $interest = $_POST['intRate'];
     $numMonths = $_POST['numMonths'];
     $savings = calculate_savings($current_amount,$numMonths,$interest);
-    $finalSaved = 0;
+    $finalSaved;
 
     function calculate_savings($current_amount,$month_amount,$interest){
         $monthlyIntRate = $interest/$month_amount/$current_amount;
