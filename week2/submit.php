@@ -30,12 +30,12 @@
 
 
 $fName = isEmpty(strval($_POST['fName']));
-$lName = strval($_POST['lName']);
-$married = strval($_POST['married']);
+$lName = isEmpty(strval($_POST['lName']));
+$married = isEmpty(strval($_POST['married']));
 $birthdate = isDate(strval($_POST['birthDate']));
-$weight = intval($_POST['weight']);
-$ft = intval($_POST['ft']);
-$in = intval($_POST['in']);
+$weight = isEmpty(intval($_POST['weight']));
+$ft = isEmpty(intval($_POST['ft']));
+$in = isEmpty(intval($_POST['in']));
 $bmi = bmi($ft,$inch,$weight);
 $bmiDesc = bmiDescription($bmi);
 $age = age($birthdate);
