@@ -25,8 +25,22 @@
             width:600px;
             height:1000px;}
 </style>
+    <?php 
 
-<?php $savings = "";?>
+    $current_amount = $_POST['monAmount'];
+    $interest = $_POST['intRate'];
+    $numMonths = $_POST['numMonths'];
+    $savings = calculate_savings($current_amount,$numMonths,$interest);
+
+    function calculate_savings($current_amount,$month_amount,$interest){
+        $monthlyIntRate = $interest/$month_amount/$current_amount;
+
+        $savedAmount = $current_amount * (1+$monthlyIntRate);
+
+        return $savedAmount;
+    }
+
+
     <body>
     <div class='header'>
         <h1><a href= "../week1/index.php">SE 266 - Jake Desmarais</a></h1>
@@ -37,7 +51,7 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>Savings Calc</h2>
-        <form action = 'submit.php' method='POST'>
+        <form action = 'savings.php' method='POST'>
         Monthly Amount: <input type="text" name="monAmount">
         <br>
         Annual Interest Rate: <input type="text" name="intRate">
