@@ -42,6 +42,13 @@
         <br>
         Married? [Yes/No]: <input type="text" name="married">
         <br>
+        Birthdate: <input type="text" name="birthDate">
+        <br>
+        Weight: <input type="text" name="weight">
+        <br>
+        Height: <input type="text" name="height">
+        <br>
+
 
 
 
