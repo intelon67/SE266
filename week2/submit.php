@@ -32,7 +32,7 @@
 $fName = strval($_POST['fName']);
 $lName = strval($_POST['lName']);
 $married = strval($_POST['married']);
-$birthdate = strval($_POST['birthDate']);
+$birthdate = isDate(strval($_POST['birthDate']));
 $weight = intval($_POST['weight']);
 $ft = intval($_POST['ft']);
 $in = intval($_POST['in']);
@@ -61,11 +61,11 @@ function isDate($dt) {
 
         $d = new DateTime($dt);
 
-        return (true);
+        return $dt;
 
     } catch(Exception $e) {
-
-        return false;
+        $error = "Error!";
+        return $error;
 
     }
 
@@ -79,7 +79,7 @@ function bmi ($ft, $inch, $weight) {
     $meters = $ft2Meter + $in2Meter;
 
     $BMI = $kg / ($meters * $meters);
-    $BMI = round($BMI,2);
+    $BMI = round($BMI,1);
 
     return $BMI;
   }
