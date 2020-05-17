@@ -34,12 +34,14 @@
        
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
+        <h2>Patient Intake</h2>
 
-        <h2>Week 2 Assignments</h2>
-        <ul>
-        <li><a href="intake.php"></a>Patient Intake</li>
-        <li><a href="savings.php"></a>Savings/li>
-        </ul>
+        <input type="text" name="fName">
+        <br>
+        <input type="text" name="lName">
+        <br>
+        <input type="text" name="married">
+        <br>
 
 
 
