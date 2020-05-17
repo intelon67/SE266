@@ -115,7 +115,6 @@ function bmi ($ft, $inch, $weight) {
         }
         if(isset($_POST['height']) == true && $var == ''){
             //Empty
-            echo '<script>alert("Please ensure height is filled in.")</script>'; 
         }
         else{
             //Not Empty
