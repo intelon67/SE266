@@ -41,10 +41,7 @@
             echo "Strings are empty!";
         }
         else{
-            echo "<div>";
-            echo "<p>First Name:" $fName "</p>";
-            echo "<p>Last Name:" $lName "</p>";
-            echo "</div>"
+            
         }
     }
 
@@ -62,7 +59,8 @@
 
         <h2>Patient Intake</h2>
 
-
+        First Name: <?php echo $fName;?>
+        
 
 
             
