@@ -41,7 +41,10 @@
             echo "Strings are empty!";
         }
         else{
-            echo "All good!";
+            echo "<div>";
+            echo "<p>First Name:" $fName "</p>";
+            echo "<p>Last Name:" $lName "</p>";
+            echo "</div>"
         }
     }
 
