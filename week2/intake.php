@@ -37,15 +37,11 @@
 
     function submit($fName,$lName,$married,$birthdate,$weight,$ft,$in){
         if(empty($fName) && empty($lName) && empty($married) && empty($birthdate) && empty($weight) && empty($ft) && empty($in)){
-            header("Location: /submit.php");
+           
         }
         else{
             
         }
-
-    if(array_key_exists('subBtn', $_POST)){
-        submit($fName,$lName,$married,$birthdate,$weight,$ft,$in);
-    }
 ?>
     <body>
     <div class='header'>
