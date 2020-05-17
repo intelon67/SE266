@@ -61,7 +61,7 @@ if (array_key_exists('subBtn',$_POST)){
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>Savings Calc</h2>
-        <form action = 'saved.php' method='POST'>
+        <form action = 'savings.php' method='POST'>
         Monthly Amount: <input type="text" name="monAmount">
         <br>
         Annual Interest Rate: <input type="text" name="intRate">
