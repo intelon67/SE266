@@ -30,20 +30,15 @@
     $monthlyInvestment = intval($_POST['monAmount']);
     $interestRate = intval($_POST['intRate']);
     $numMonths = intval($_POST['numMonths']);
-    $saved = calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths);
 
-    function calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths){
-       $monthlyInterest = 1 + ($interestRate/12/100);
-        for($i=1;$i<$numMonths;$i++){
-            
-            $currentAmount += $monthlyInvestment;
-            $monthlyIncrease = ($currentAmount + $monthlyInvestment) * $monthlyInterest;
-            $saved = $currentAmount+$monthlyIncrease;
-            echo "<br> Saved $saved";
-            echo "<br> Increased by $monthlyIncrease";
-        }
-        return $saved;
-       
+      function calculate_savings($currentAmount,$monthlyInvestment,$interestRate){
+        $monthlyInt = $interestRate/12/100;  
+        $increase = $currentAmount * (1+ $monthlyInt);
+        return $increase;
+      }  
+
+      for($i=1;$i<$numMonths;$i++){
+        $saved = calculate_savings($currentAmount,$monthlyInvestment,$interestRate);
     }
     ?>
     <body>
