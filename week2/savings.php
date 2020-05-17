@@ -68,7 +68,7 @@ if (array_key_exists('subBtn',$_POST)){
         <input type="submit" name="subBtn">
         </form>
 
-        <p></p>
+        <p><?php echo $saved; ?></p>
 
 
 
