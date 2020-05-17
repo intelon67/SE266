@@ -44,8 +44,6 @@ if (array_key_exists('subBtn',$_POST)){
     for($i=0;$i<=$numMonths;$i++){
     $saved = calculate_savings($currentAmount,$numMonths,$interestRate);    
     }
-   
-        
     }
 }
 
@@ -71,7 +69,7 @@ if (array_key_exists('subBtn',$_POST)){
         <input type="submit" name="subBtn">
         </form>
 
-        <p name='saved'><?php echo $saved; ?></p>
+        <p></p>
 
 
 
