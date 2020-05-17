@@ -101,13 +101,7 @@ function bmi ($ft, $inch, $weight) {
         echo "Form Submitted <hr />";
         isDate($_POST['birthDate']);
         age($_POST['birthDate']);
-        
-        if(isEmpty($_POST['fName']) == true){
-            echo "There was a problem";
-        };
-        else {
-            echo 'No Problem';
-        }
+        isEmpty($_POST['fname']);
         
     }
     else{
