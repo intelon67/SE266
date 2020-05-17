@@ -121,7 +121,7 @@ function bmi ($ft, $inch, $weight) {
         <br>
         Birthdate: <?php echo $birthdate; ?>
         <br>
-        Height: <?php echo $ft; echo $in; ?>
+        Height: <?php echo $ft; echo " Feet"; echo $in; echo " Inches";?>
         <br>
         Weight: <?php echo $weight; ?>
         <br>
