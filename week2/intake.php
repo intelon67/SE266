@@ -25,16 +25,6 @@
             width:600px;
             height:1000px;}
 </style>
-<?php 
-
-    function submit($fName,$lName,$married,$birthdate,$weight,$ft,$in){
-        if(empty($fName) && empty($lName) && empty($married) && empty($birthdate) && empty($weight) && empty($ft) && empty($in)){
-           
-        }
-        else{
-            
-        }
-?>
     <body>
     <div class='header'>
         <h1><a href= "../week1/index.php">SE 266 - Jake Desmarais</a></h1>
