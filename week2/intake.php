@@ -85,6 +85,13 @@ function bmi ($ft, $inch, $weight) {
     
     return $bmiDescription;
 }
+    if (isset($_POST["subBtn"])){
+        echo "Form Submitted <hr/>"
+    }
+    else{
+        echo "Initial load";
+    }
+
 
 ?>
     <body>
