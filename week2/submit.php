@@ -38,6 +38,7 @@ $ft = intval($_POST['ft']);
 $in = intval($_POST['in']);
 $bmi = bmi($ft,$inch,$weight);
 $bmiDesc = bmiDescription($bmi);
+$age = age($birthdate);
 
 
  function age ($bdate) {
@@ -118,7 +119,7 @@ function bmi ($ft, $inch, $weight) {
         Birthdate: <?php echo $birthdate; ?>
         Height: <?php echo $ft; echo $in; ?>
         Weight: <?php echo $weight; ?>
-        Age:
+        Age: <?php echo $age; ?>
         BMI: <?php echo $bmi ?>
         BMI Class: <?php echo $bmiDesc; ?>
 
