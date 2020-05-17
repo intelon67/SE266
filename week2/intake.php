@@ -87,6 +87,7 @@ function bmi ($ft, $inch, $weight) {
 }
     if (isset($_POST['subBtn'])){
         echo "Form Submitted <hr />";
+        isDate($_POST['birthDate']);
     }
     else{
         echo "Initial load";
@@ -111,7 +112,7 @@ function bmi ($ft, $inch, $weight) {
         <br>
         Married? [Yes/No]: <input type="text" name="married">
         <br>
-        Birthdate: <input type="text" name="birthDate">
+        Birthdate: <input type="datetime" name="birthDate">
         <br>
         Weight: <input type="text" name="weight">
         <br>
