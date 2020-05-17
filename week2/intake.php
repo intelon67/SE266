@@ -85,46 +85,6 @@ function bmi ($ft, $inch, $weight) {
     
     return $bmiDescription;
 }
-    if (isset($_POST['subBtn'])){
-        echo "Form Submitted <hr />";
-        isDate($_POST['birthDate']);
-        age($_POST['birthDate']);
-        if(isset($_POST['fName']) == true && $var == ''){
-            //Empty
-            return true;
-        }
-        else{
-            //Not Empty
-            return false;
-        }
-        if(isset($_POST['lName']) == true && $var == ''){
-            //Empty
-            return true;
-        }
-        else{
-            //Not Empty
-            return false;
-        }
-        if(isset($_POST['weight']) == true && $var == ''){
-            //Empty
-            return true;
-        }
-        else{
-            //Not Empty
-            return false;
-        }
-        if(isset($_POST['height']) == true && $var == ''){
-            //Empty
-        }
-        else{
-            //Not Empty
-            return false;
-        }
-    }
-    else{
-        echo "Initial load";
-    }
-
 
 ?>
     <body>
@@ -142,7 +102,7 @@ function bmi ($ft, $inch, $weight) {
         <br>
         Last Name: <input type="text" name="lName">
         <br>
-        Married? [Yes/No]: <input type="text" name="married">
+        Married: <input type="radio" name="married" value="yes">Yes <input type="radio" name="married" value="no">No
         <br>
         Birthdate: <input type="datetime" name="birthDate">
         <br>
@@ -159,7 +119,7 @@ function bmi ($ft, $inch, $weight) {
     </div>
 
     <footer>
-    <p style='color:white; text-align:center;'>Website Modified: 5/10/2020 at 9:19PM EST</p>
+    <p style='color:white; text-align:center;'>Website Modified: 5/17/2020 at 10:19AM EST</p>
     </footer>
     </body>
 </html>
