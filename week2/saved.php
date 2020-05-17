@@ -26,24 +26,17 @@
             height:1000px;}
 </style>
     <?php 
-
-    $current_amount = $_POST['monAmount'];
-    $interest = $_POST['intRate'];
+    $currentAmount = $_POST['monAmount'];
+    $monthlyInvestment = $_POST['monAmount'];
+    $interestRate = $_POST['intRate'];
     $numMonths = $_POST['numMonths'];
-    $savings = calculate_savings($current_amount,$numMonths,$interest);
-    $finalSaved;
 
-    function calculate_savings($current_amount,$month_amount,$interest){
-        $monthlyIntRate = $interest/$month_amount/$current_amount;
-
-        $savedAmount = $current_amount * (1+$monthlyIntRate);
-
-        return $savedAmount;
+    function calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths){
+        $monthlyInterest = $interestRate/$numMonths/$monthlyInvestment;
+        $saved = $monthlyInterest + $currentAmount;
+        return $saved;
     }
 
-    for (i=0;i<$numMonths;i++){
-        $finalSaved += $savings;
-    }
 
     ?>
     <body>
@@ -58,7 +51,7 @@
         <h2>Savings Calc</h2>
         <form action = 'savings.php' method='POST'>
         <br>
-        <p>Saved amount: <?php echo $finalSaved; ?> </p>
+        <p>Saved amount: <?php echo $saved; ?> </p>
         </form>
 
 
