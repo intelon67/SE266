@@ -45,6 +45,8 @@
         }
     }
 
+    submit($fName,$lName,$married,$birthdate,$weight,$ft,$in);
+
 ?>
     <body>
     <div class='header'>
