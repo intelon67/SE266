@@ -25,6 +25,32 @@
             width:600px;
             height:1000px;}
 </style>
+<?php 
+
+function calculate_savings($currentAmount,$monthlyAmount,$interestRate){
+    $monthlyInt = $interestRate/12/100;  
+    $currentAmount += $monthlyAmount;
+    $increase = $currentAmount * (1+ $monthlyInt);
+    return $increase;
+}
+
+
+if (array_key_exists('subBtn',$_POST)){
+    $currentAmount = 0;
+    $monthlyAmount = $_POST['monAmount'];
+    $interestRate = $_POST['intRate'];
+    $numMonths = $_POST['numMonths'];
+
+    for($i=0;$i<=$numMonths;$i++){
+    $saved = calculate_savings($currentAmount,$numMonths,$interestRate);    
+    }
+   
+        
+    }
+}
+
+?>
+
     <body>
     <div class='header'>
         <h1><a href= "../week1/index.php">SE 266 - Jake Desmarais</a></h1>
@@ -44,6 +70,8 @@
         <br>
         <input type="submit" name="subBtn">
         </form>
+
+        <p name='saved'><?php echo $saved; ?></p>
 
 
 
