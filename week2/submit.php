@@ -27,6 +27,19 @@
 </style>
 
 <?php 
+
+
+$fName = strval($_POST['fName']);
+$lName = strval($_POST['lName']);
+$married = strval($_POST['married']);
+$birthdate = strval($_POST['birthDate']);
+$weight = intval($_POST['weight']);
+$ft = intval($_POST['ft']);
+$in = intval($_POST['in']);
+$bmi = bmi($ft,$inch,$weight);
+$bmiDesc = bmiDescription($bmi);
+
+
  function age ($bdate) {
 
     $date = new DateTime($bdate);
@@ -87,17 +100,6 @@ function bmi ($ft, $inch, $weight) {
 }
 
 
-
-        $fName = strval($_POST['fName']);
-        $lName = strval($_POST['lName']);
-        $married = strval($_POST['married']);
-        $birthdate = strval($_POST['birthDate']);
-        $weight = intval($_POST['weight']);
-        $ft = intval($_POST['ft']);
-        $in = intval($_POST['in']);
-        $bmi = bmi($ft,$inch,$weight);
-
-
 ?>
     <body>
     <div class='header'>
@@ -112,11 +114,13 @@ function bmi ($ft, $inch, $weight) {
 
         First Name: <?php echo $fName;?>
         Last Name: <?php echo $lName;?>
-
-
-        BMI: <?php echo $bmi;?>
-
-        
+        Married: <?php echo $married; ?>
+        Birthdate: <?php echo $birthdate; ?>
+        Height: <?php echo $ft; echo $in; ?>
+        Weight: <?php echo $weight; ?>
+        Age:
+        BMI: <?php echo $bmi ?>
+        BMI Class: <?php echo $bmiDesc; ?>
 
 
             

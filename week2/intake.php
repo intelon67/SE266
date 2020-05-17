@@ -35,7 +35,7 @@
        <a href="https://github.com/intelon67/SE266" style="font-size:24px;">My Github Repo</a>
 
         <h2>Patient Intake</h2>
-        <form action = 'intake.php' method='POST'>
+        <form action = 'submit.php' method='POST'>
         First Name: <input type="text" name="fName">
         <br>
         Last Name: <input type="text" name="lName">
