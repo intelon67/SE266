@@ -27,14 +27,6 @@
 </style>
 <?php 
 
-    $fName = strval($_POST['fName']);
-    $lName = strval($_POST['lName']);
-    $married = strval($_POST['married']);
-    $birthdate = strval($_POST['birthDate']);
-    $weight = intval($_POST['weight']);
-    $ft = intval($_POST['ft']);
-    $in = intval($_POST['in']);
-
     function submit($fName,$lName,$married,$birthdate,$weight,$ft,$in){
         if(empty($fName) && empty($lName) && empty($married) && empty($birthdate) && empty($weight) && empty($ft) && empty($in)){
            
