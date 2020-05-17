@@ -104,11 +104,14 @@ function bmi ($ft, $inch, $weight) {
         <br>
         Married: <input type="radio" name="married" value="yes">Yes <input type="radio" name="married" value="no">No
         <br>
-        Birthdate: <input type="datetime" name="birthDate">
+        Birthdate: <input type="date" name="birthDate" value ="">
         <br>
         Weight: <input type="number" name="weight">
         <br>
-        Height: <input type="number" name="height">
+        Height: 
+        <br>
+        Feet:<input type="number" name="ft">
+        Inches: <input type="number" name = "in">
         <br>
         <input type="submit" name="subBtn">
         </form>
