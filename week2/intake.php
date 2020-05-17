@@ -40,7 +40,7 @@
         <br>
         Last Name: <input type="text" name="lName">
         <br>
-        Married: <input type="radio" name="married" value="yes">Yes <input type="radio" name="married" value="no">No
+        Married: <input type="radio" name="married" value="Yes">Yes <input type="radio" name="married" value="No">No
         <br>
         Birthdate: <input type="date" name="birthDate" value ="">
         <br>

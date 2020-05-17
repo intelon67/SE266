@@ -72,14 +72,13 @@ function isDate($dt) {
 }
 
 function bmi ($ft, $inch, $weight) {
+    $kg = $weight / 2.20462;
+    $ft2Meter = ($ft * 12) * 0.0254;
+    $in2Meter = $inch * 0.0254;
 
-    $kg = $weight/2.20462;
-    $ftInches = $ft/12;
-    $meters = $ftInches + $inch * 0.0254;
+    $meters = $ft2Meter + $in2Meter;
 
     $BMI = $kg / ($meters * $meters);
-
-    return $BMI;
   }
 
   function bmiDescription ($BMI) {
@@ -121,7 +120,7 @@ function bmi ($ft, $inch, $weight) {
         <br>
         Birthdate: <?php echo $birthdate; ?>
         <br>
-        Height: <?php echo $ft; echo " Feet"; echo $in; echo " Inches";?>
+        Height: <?php echo $ft; echo " Feet "; echo $in; echo " Inches";?>
         <br>
         Weight: <?php echo $weight; ?>
         <br>
