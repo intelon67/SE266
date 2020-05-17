@@ -97,7 +97,7 @@ function bmi ($ft, $inch, $weight) {
         $BmiDesc = 'Underweight';
     }
     
-    return $bmiDescription;
+    return $BmiDesc;
 }
 
 
@@ -114,13 +114,21 @@ function bmi ($ft, $inch, $weight) {
         <h2>Patient Intake</h2>
 
         First Name: <?php echo $fName;?>
+        <br>
         Last Name: <?php echo $lName;?>
+        <br>
         Married: <?php echo $married; ?>
+        <br>
         Birthdate: <?php echo $birthdate; ?>
+        <br>
         Height: <?php echo $ft; echo $in; ?>
+        <br>
         Weight: <?php echo $weight; ?>
+        <br>
         Age: <?php echo $age; ?>
+        <br>
         BMI: <?php echo $bmi ?>
+        <br>
         BMI Class: <?php echo $bmiDesc; ?>
 
 
