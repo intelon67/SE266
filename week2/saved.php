@@ -42,8 +42,6 @@
         return $saved;
        
     }
-
-
     ?>
     <body>
     <div class='header'>
@@ -58,6 +56,16 @@
         <form action = 'savings.php' method='POST'>
         <br>
         <p>Saved amount: <?php echo $saved; ?> </p>
+        <br>
+        CurrentAmount = <?php echo $currentAmount; ?>
+        <br>
+        Monthly Investment = <?php echo $monthlyInvestment; ?>
+        <br>
+        Interest Rate = <?php echo $interestRate; ?>
+        <br>
+        NumMonths = <?php echo $numMonths; ?>
+        <br>
+        Monthly Increase = <?php echo $monthlyIncrease; ?>
         </form>
 
 
