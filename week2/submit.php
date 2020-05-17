@@ -79,6 +79,8 @@ function bmi ($ft, $inch, $weight) {
     $meters = $ft2Meter + $in2Meter;
 
     $BMI = $kg / ($meters * $meters);
+
+    return $BMI;
   }
 
   function bmiDescription ($BMI) {
