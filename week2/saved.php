@@ -28,7 +28,7 @@
     <?php 
     $currentAmount = intval($_POST['monAmount']);
     $monthlyInvestment = intval($_POST['monAmount']);
-    $interestRate = floatval($_POST['intRate']);
+    $interestRate = intval($_POST['intRate']);
     $numMonths = intval($_POST['numMonths']);
     $saved = calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths);
 
