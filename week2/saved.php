@@ -33,9 +33,9 @@
     $saved = calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths);
 
     function calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths){
-       
+       $monthlyInterest = 1 + ($interestRate/12/100);
         for($i=1;$i<$numMonths;$i++){
-            $monthlyInterest = $interestRate/12/100;
+            
             $currentAmount += $monthlyInvestment;
             $monthlyIncrease = ($currentAmount + $monthlyInvestment) * $monthlyInterest;
             $saved = $currentAmount+$monthlyIncrease;
