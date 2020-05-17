@@ -36,11 +36,11 @@
 
         <h2>Patient Intake</h2>
 
-        <input type="text" name="fName">
+        First Name: <input type="text" name="fName">
         <br>
-        <input type="text" name="lName">
+        Last Name: <input type="text" name="lName">
         <br>
-        <input type="text" name="married">
+        Married? [Yes/No]: <input type="text" name="married">
         <br>
 
 
