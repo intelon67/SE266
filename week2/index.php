@@ -37,8 +37,8 @@
 
         <h2>Week 2 Assignments</h2>
         <ul>
-        <li><a href="intake.php"></a>Patient Intake</li>
-        <li><a href="savings.php"></a>Savings/li>
+        <li><a href="intake.php">Patient Intake</a></li>
+        <li><a href="savings.php">Savings</a></li>
         </ul>
 
 
