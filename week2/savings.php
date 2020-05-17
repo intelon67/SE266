@@ -40,7 +40,7 @@
         return $savedAmount;
     }
 
-
+    ?>
     <body>
     <div class='header'>
         <h1><a href= "../week1/index.php">SE 266 - Jake Desmarais</a></h1>
