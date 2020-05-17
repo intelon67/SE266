@@ -32,7 +32,7 @@
 $fName = isEmpty(strval($_POST['fName']));
 $lName = isEmpty(strval($_POST['lName']));
 $married = isEmpty(strval($_POST['married']));
-$birthdate = isEmpty(isDate(strval($_POST['birthDate'])));
+$birthdate = isDate(strval($_POST['birthDate']));
 $weight = isEmpty(intval($_POST['weight']));
 $ft = isEmpty(intval($_POST['ft']));
 $in = isEmpty(intval($_POST['in']));
