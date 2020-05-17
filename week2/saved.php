@@ -26,10 +26,10 @@
             height:1000px;}
 </style>
     <?php 
-    $currentAmount = $_POST['monAmount'];
-    $monthlyInvestment = $_POST['monAmount'];
-    $interestRate = $_POST['intRate']/100;
-    $numMonths = $_POST['numMonths'];
+    $currentAmount = intval($_POST['monAmount']);
+    $monthlyInvestment = intval($_POST['monAmount']);
+    $interestRate = intval($_POST['intRate'])/100;
+    $numMonths = intval($_POST['numMonths']);
     $saved = calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths);
 
     function calculate_savings($currentAmount,$monthlyInvestment,$interestRate,$numMonths){
