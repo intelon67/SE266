@@ -42,10 +42,9 @@ if (array_key_exists('subBtn',$_POST)){
     $numMonths = $_POST['numMonths'];
 
     for($i=0;$i<=$numMonths;$i++){
-    $saved = calculate_savings($currentAmount,$numMonths,$interestRate);    
+    $saved = calculate_savings($currentAmount,$numMonths,$interestRate);
     }
     }
-}
 
 ?>
 
