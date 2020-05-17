@@ -68,18 +68,6 @@ function bmi ($ft, $inch, $weight) {
     return $BMI;
   }
 
-
-  function isEmpty($var){
-
-    $var = trim($var);
-
-      if(isset($var) == true && $var == ''){
-          return true;
-      }
-      else{
-          return false;
-      }
-  }
   function bmiDescription ($BMI) {
 
     if ($BMI >= 30){
@@ -101,8 +89,38 @@ function bmi ($ft, $inch, $weight) {
         echo "Form Submitted <hr />";
         isDate($_POST['birthDate']);
         age($_POST['birthDate']);
-        isEmpty($_POST['fname']);
-        
+        if(isset($_POST['fName']) == true && $var == ''){
+            //Empty
+            return true;
+        }
+        else{
+            //Not Empty
+            return false;
+        }
+        if(isset($_POST['lName']) == true && $var == ''){
+            //Empty
+            return true;
+        }
+        else{
+            //Not Empty
+            return false;
+        }
+        if(isset($_POST['weight']) == true && $var == ''){
+            //Empty
+            return true;
+        }
+        else{
+            //Not Empty
+            return false;
+        }
+        if(isset($_POST['height']) == true && $var == ''){
+            //Empty
+            echo '<script>alert("Please ensure height is filled in.")</script>'; 
+        }
+        else{
+            //Not Empty
+            return false;
+        }
     }
     else{
         echo "Initial load";
@@ -129,9 +147,9 @@ function bmi ($ft, $inch, $weight) {
         <br>
         Birthdate: <input type="datetime" name="birthDate">
         <br>
-        Weight: <input type="text" name="weight">
+        Weight: <input type="number" name="weight">
         <br>
-        Height: <input type="text" name="height">
+        Height: <input type="number" name="height">
         <br>
         <input type="submit" name="subBtn">
         </form>
