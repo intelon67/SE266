@@ -32,13 +32,13 @@
 $fName = isEmpty(strval($_POST['fName']));
 $lName = isEmpty(strval($_POST['lName']));
 $married = isEmpty(strval($_POST['married']));
-$birthdate = isDate(strval($_POST['birthDate']));
+$birthdate = isEmpty(isDate(strval($_POST['birthDate'])));
 $weight = isEmpty(intval($_POST['weight']));
 $ft = isEmpty(intval($_POST['ft']));
 $in = isEmpty(intval($_POST['in']));
-$bmi = bmi($ft,$inch,$weight);
-$bmiDesc = bmiDescription($bmi);
-$age = age($birthdate);
+$bmi = isEmpty(bmi($ft,$inch,$weight));
+$bmiDesc = isEmpty(bmiDescription($bmi));
+$age = isEmpty(age($birthdate));
 
 
  function age ($bdate) {
