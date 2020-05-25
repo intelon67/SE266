@@ -33,19 +33,10 @@
         }
 
         protected function getAccountDetails() {
-            $str += $id;
-            echo $str;
             $str = "";
-
-            $str += $balance;
-            echo $str;
-            $str = "";
-
-            $str += $startDate;
-            echo $str;
-            $str = "";
-            
-            return $str;
+            $str += "ACCOUNTID";
+            $str += "ACCOUNTBAL";
+            $str += "ACCOUNTOPENDATE";
         }
     }
 
