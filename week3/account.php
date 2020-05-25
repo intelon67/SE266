@@ -37,6 +37,7 @@
             $str += "ACCOUNTID";
             $str += "ACCOUNTBAL";
             $str += "ACCOUNTOPENDATE";
+            return $str;
         }
     }
 
