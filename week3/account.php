@@ -9,7 +9,8 @@
             $startDate += $sd;
         }
         public function deposit ($amount) {
-            // write code here
+            $balance += $amount;
+            return $balance;
         }
 
         abstract public function withdrawal($amount);
@@ -17,21 +18,18 @@
         // that inherit from this class
         public function getStartDate() {
             // write code here
-            $str = "";
-            $str += $startDate;
-            return $str;
+            $sd = '12/20/2020';
+            return $sd;
         }
 
         public function getBalance() {
-            $str = "";
-            $str += $balance;
-            return $str;
+           $bal = 45000;
+           return $bal;
         }
 
         public function getAccountId() {
-            $str = "";
-            $str += $accountId;
-            return $str;
+            $id = 'C4500';
+            return $id;
         }
 
         protected function getAccountDetails() {
