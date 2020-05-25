@@ -17,14 +17,21 @@
         // that inherit from this class
         public function getStartDate() {
             // write code here
+            $str = "";
+            $str += $startDate;
+            return $str;
         }
 
         public function getBalance() {
-            // write code here
+            $str = "";
+            $str += $balance;
+            return $str;
         }
 
         public function getAccountId() {
-            // write code here
+            $str = "";
+            $str += $accountId;
+            return $str;
         }
 
         protected function getAccountDetails() {
