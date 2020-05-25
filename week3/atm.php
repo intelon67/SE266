@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>SE 266 - Week 2</title>
     </head>
+    <?php include 'account.php'; ?>
     <style>
     body {background-image:url('bg.jpg')}
 
@@ -36,9 +37,7 @@
 
 
         <h2>Week 3 Assignments</h2>
-        <ul>
-        <li><a href="atm.php">ATM</a></li>g
-        </ul>
+
 
 
 

@@ -3,7 +3,8 @@
         protected $accountId, $balance, $startDate;
         
         public function __construct ($id, $b, $sd) {
-           // write code here
+
+            //
         }
         public function deposit ($amount) {
             // write code here
@@ -25,7 +26,9 @@
         }
 
         protected function getAccountDetails() {
-            // populate $str with the account details
+            $str += $id;
+            $str += $balance;
+            $str += $startDate;
             
             return $str;
         }
