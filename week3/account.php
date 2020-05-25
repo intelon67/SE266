@@ -29,8 +29,16 @@
 
         protected function getAccountDetails() {
             $str += $id;
+            echo $str;
+            $str = "";
+
             $str += $balance;
+            echo $str;
+            $str = "";
+
             $str += $startDate;
+            echo $str;
+            $str = "";
             
             return $str;
         }
@@ -40,7 +48,12 @@
         const OVERDRAW_LIMIT = -200;
 
         public function withdrawal($amount) {
-            // write code here. Return true if withdrawal goes through; false otherwise
+            if($amount - $balance >= -200){
+                return true;
+            }
+            else{
+                return false;
+            }
         }
 
         //freebie. I am giving you this code.
@@ -55,7 +68,12 @@
     class SavingsAccount extends Account {
 
         public function withdrawal($amount) {
-            // write code here. Return true if withdrawal goes through; false otherwise
+            if($amount - $balance >= -200){
+                return true;
+            }
+            else{
+                return false;
+            }
         }
 
         public function getAccountDetails() {
