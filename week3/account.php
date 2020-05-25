@@ -4,7 +4,9 @@
         
         public function __construct ($id, $b, $sd) {
 
-            //
+            $id = $accountId;
+            $b = $balance;
+            $sd = $startDate;
         }
         public function deposit ($amount) {
             // write code here
