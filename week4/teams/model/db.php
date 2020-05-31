@@ -10,4 +10,6 @@ $db = new PDO(
     $ini['password']);
 
     $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+
+    var_dump($db)
 ?>
