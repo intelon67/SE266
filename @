@@ -3,9 +3,12 @@
 # with '#' will be ignored, and an empty message aborts the commit.
 #
 # On branch master
-# Your branch is ahead of 'origin/master' by 19 commits.
+# Your branch is ahead of 'origin/master' by 68 commits.
 #   (use "git push" to publish your local commits)
 #
 # Changes to be committed:
-	modified:   index.php
+	modified:   insert.php
+#
+# Untracked files:
+#	../week1/klaww.png
 #

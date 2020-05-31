@@ -3,7 +3,7 @@ $username = "SE266_Jacob";
 $password = "Jacob";
 $database = "patients";
  
-$mysqli = new mysqli("ict.neit.edu", $username, $password, $database);
+$mysqli = new mysqli("ict.neit.edu,5500", $username, $password, $database);
  
 // Don't forget to properly escape your values before you send them to DB
 // to prevent SQL injection attacks.
