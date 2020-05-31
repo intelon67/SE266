@@ -1,11 +1,19 @@
 <?php
-$dsn = "sqlsrv:Server=ict.neit.edu,5500;Database=SE266_Jacob";
-$conn = new PDO($dsn, "SE266_Jacob", "Jacob");
-$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+$host = 'ict.neit.edu,5500';
+$db   = 'SE266_Jacob';
+$user = 'SE266_Jacob';
+$pass = 'Jacob';
+$charset = 'utf8mb4';
 
-$sql = "SELECT * FROM Table";
-
-foreach ($conn->query($sql) as $row) {
-    print_r($row);
-} 
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+try {
+     $pdo = new PDO($dsn, $user, $pass, $options);
+} catch (\PDOException $e) {
+     throw new \PDOException($e->getMessage(), (int)$e->getCode());
+}
 ?>
