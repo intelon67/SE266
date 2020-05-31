@@ -1,14 +1,14 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <form action="insert.php" method="post">
-    First Name: <input type="text" name = "fName" /><br/>
-    Last Name: <input type="text" name = "lName" /><br/>
-    Married: <input type="radio" name = "married" /><br/>
-    Birthdate: <input type="calendar" name = "birthdate" /><br/>
-    <input type="submit" />
-</form>
- </body>
-</html>
+<?php
+$servername = "ict.neit.edu,5500";
+$username = "SE266_Jacob";
+$password = "Jacob";
+
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=myDB", $username, $password);
+  // set the PDO error mode to exception
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  echo "Connected successfully";
+} catch(PDOException $e) {
+  echo "Connection failed: " . $e->getMessage();
+}
+?>
