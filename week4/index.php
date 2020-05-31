@@ -1,14 +1,11 @@
 <?php
-$servername = "ict.neit.edu,5500";
-$username = "SE266_Jacob";
-$password = "Jacob";
+$dsn = "sqlsrv:Server=ict.neit.edu,5500;Database=SE266_Jacob";
+$conn = new PDO($dsn, "SE266_Jacob", "Jacob");
+$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
-try {
-  $conn = new PDO("mysql:host=$servername;dbname=myDB", $username, $password);
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-  echo "Connected successfully";
-} catch(PDOException $e) {
-  echo "Connection failed: " . $e->getMessage();
-}
+$sql = "SELECT * FROM Table";
+
+foreach ($conn->query($sql) as $row) {
+    print_r($row);
+} 
 ?>
