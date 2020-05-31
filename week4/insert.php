@@ -1,9 +1,9 @@
 <?php
-$username = "your_username";
-$password = "your_pass";
-$database = "your_db";
+$username = "SE266_Jacob";
+$password = "Jacob";
+$database = "patients";
  
-$mysqli = new mysqli("localhost", $username, $password, $database);
+$mysqli = new mysqli("ict.neit.edu", $username, $password, $database);
  
 // Don't forget to properly escape your values before you send them to DB
 // to prevent SQL injection attacks.
