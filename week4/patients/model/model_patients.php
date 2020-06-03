@@ -39,15 +39,5 @@
         
         return ($results);
     }
-   
-   
-    
-    // $result = addTeam2 ('Feyenoord', 'Eredivisie');
-    // echo $result;
-   
-    $patients = getPatients();
-    $patient = $patients[1];
-    var_dump($patient);
-
 ?>
 
