@@ -17,6 +17,7 @@
         
         include __DIR__ . '/model/model_patients.php';
         $patients = getPatients ();
+        var_dump($patients);
         
     ?>
   
