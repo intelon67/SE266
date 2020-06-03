@@ -1,6 +1,6 @@
 <html lang="en">
 <head>
-  <title>View NFL Teams</title>
+  <title>View Patient</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -11,55 +11,42 @@
     <div class="container">
         
     <div class="col-sm-offset-2 col-sm-10">
-        <h1>NFL Teams</h1>
+        <h1>Patients</h1>
     
     <?php
         
-        include __DIR__ . '/model/model_teams.php';
-        include __DIR__ . '/functions.php';
-        if (isPostRequest()) {
-            $id = filter_input(INPUT_POST, 'teamId');
-            deleteTeam ($id);
-
-        }
-        $teams = getTeams ();
+        include __DIR__ . '/model/model_patients.php';
+        $patients = getPatients ();
         
     ?>
   
-    
-        
     <table class="table table-striped">
             <thead>
                 <tr>
-                 
-                    <th>Team Name</th>
-                    <th>Division</th>
-                    <th>Edit</th>
+                    <th>Id</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Birthdate</th>
+                    <th>Married</th>
                 </tr>
             </thead>
             <tbody>
            
             
-            <?php foreach ($teams as $row): ?>
+            <?php foreach ($patients as $row): ?>
                 <tr>
-                    <td>
-                        
-                            <form action="view.php" method="post">
-                                <input type="hidden" name="teamId" value="<?php echo $row['id']; ?>" />
-                                <button class="btn glyphicon glyphicon-trash" type="submit"></button>
-                                <?php echo $row['teamName']; ?>
-                            </form>
-                   </td>
-                    <td><?php echo $row['division']; ?></td> 
-                    <td><a href="editTeam.php?action=update&teamId=<?php echo $row['id']; ?>">Edit</a></td> 
-                    
+                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['patientFirstName']; ?></td>
+                    <td><?php echo $row['patientLastName']; ?></td> 
+                    <td><?php echo $row['patientBirthDate'];?></td>
+                    <td><?php echo $row['patientMarried']; ?></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>
         </table>
         
         <br />
-        <a href="editTeam.php?action=add">Add Team</a>
+        <a href="addPatient.php">Add Patient</a>
     </div>
     </div>
 </body>
